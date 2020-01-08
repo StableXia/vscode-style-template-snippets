@@ -1,4 +1,4 @@
-# vsc-style-template-snippets README
+# vsc-style-template-snippets
 样式模板片段提示
 
 ### 安装
