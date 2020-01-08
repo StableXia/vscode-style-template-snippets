@@ -1,6 +1,6 @@
 {
-	"name": "vsc-style-template-snippets",
-	"displayName": "vsc-style-template-snippets",
+	"name": "vscode-style-template-snippets",
+	"displayName": "vscode-style-template-snippets",
 	"description": "样式模板提示",
 	"version": "0.0.1",
 	"publisher": "xiawen",
