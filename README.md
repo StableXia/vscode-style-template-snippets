@@ -7,4 +7,5 @@
 ### 支持的语言文件
 >html、vue、js、ts、tsx、jsx
 
-![image](https://github.com/xiaotangdou/vscode-style-template-snippets/master/demo.gif)
+### 效果如下
+![image](https://github.com/xiaotangdou/vscode-style-template-snippets/blob/master/demo.gif)
