@@ -4,7 +4,7 @@
 	"description": "样式模板提示",
 	"version": "0.0.1",
 	"publisher": "xiawen",
-	"icon": "app-logo.png",
+	"icon": "app-logo.jpeg",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/xiaotangdou/vscode-style-template-snippets.git"
