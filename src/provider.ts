@@ -6,7 +6,7 @@
  */
 
 import * as vscode from 'vscode'
-import { SNIPPET_MAP, IfaSnippetItem, IfaSnippet } from './snippets.const'
+import { SNIPPET_MAP, IfaSnippetItem, IfaSnippet } from './snippets-const'
 
 interface IfaMatchData {
   snippets: IfaSnippet
@@ -17,6 +17,7 @@ const CLASS_START_MATCH_REGX = /^\s|\"|\'/
 const CLASS_MATCH_REGX = /\sdf\-$|\"df\-$|\'df\-$/
 const CLASS_LAYOUT_MATCH_REGX = /\sdf\-layout\-$|\"df\-layout\-$|\'df\-layout\-$/
 const CLASS_SHADOW_MATCH_REGX = /\sdf\-shadow\-$|\"df\-shadow\-$|\'df\-shadow\-$/
+const CLASS_FONT_MATCH_REGX = /\sdf\-typo\-$|\"df\-typo\-$|\'df\-typo\-$/
 
 function getMatchData(text: string) {
   if (CLASS_MATCH_REGX.test(text)) {
@@ -37,6 +38,13 @@ function getMatchData(text: string) {
     return {
       snippets: SNIPPET_MAP.shadow,
       match: text.match(CLASS_SHADOW_MATCH_REGX),
+    }
+  }
+
+  if (CLASS_FONT_MATCH_REGX.test(text)) {
+    return {
+      snippets: SNIPPET_MAP.font,
+      match: text.match(CLASS_FONT_MATCH_REGX),
     }
   }
 
