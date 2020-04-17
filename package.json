@@ -1,14 +1,14 @@
 {
-	"name": "vscode-style-template-snippets",
-	"displayName": "vscode-style-template-snippets",
-	"description": "样式模板提示",
-	"version": "0.0.1",
-	"publisher": "xiawen",
-	"icon": "app-logo.jpeg",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/xiaotangdou/vscode-style-template-snippets.git"
-	},
+  "name": "vscode-style-template-snippets",
+  "displayName": "vscode-style-template-snippets",
+  "description": "样式模板提示",
+  "version": "0.0.2",
+  "publisher": "xiawen",
+  "icon": "app-logo.jpeg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaotangdou/vscode-style-template-snippets.git"
+  },
   "engines": {
     "vscode": "^1.40.0"
   },
